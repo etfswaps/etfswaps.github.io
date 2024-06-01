@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600&amp;family=Kanit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,600&amp;display=swap');
+body {
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+    background: #fff;
+    background: url(../images/background.png);
+    background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+}
+
+.logo {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.bg-color {
+    background: #1d2039;
+    box-shadow: inherit !important;
+}
+
+.tvl {
+    text-decoration: none;
+    border: 3px solid #cccc;
+    padding: 3px 15px;
+    border-radius: 43px;
+    background-color: #131722;
+    color: #d5d5d5;
+    font-weight: 600;
+}
+
+.tvl:hover {
+    color: #d5d5d5;
+}
+
+img.md {
+    margin-top: -14px;
+}
+
+.wallet .rounded-4 {
+    border-radius: 37px;
+}
+
+.brs {
+    color: #fda207;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        justify-content: space-around !important;
+    }
+}
+
+.sss {
+    border-radius: 80px;
+    background-image: linear-gradient(#10121b, #10121b), radial-gradient(circle at left top, #ffa409, #2d324b);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border: 3px double transparent;
+    max-height: 36.8px;
+    font-family: "Kanit";
+    font-weight: 600;
+    padding: 3px 15px;
+    border-radius: 43px;
+    background-color: #131722;
+    color: #d5d5d5;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+.sss:hover {
+    color: #fda207;
+}
+
+.box1 {
+    width: 100%;
+    height: 16rem;
+    background-color: rgb(20, 24, 36);
+    box-shadow: rgb(0 0 0 / 45%) 0px 0px 12px 6px;
+    border-radius: 1.25rem;
+    position: relative;
+    padding: 12px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.box1 h1 {
+    color: rgb(213, 213, 213);
+}
+
+.box1 p {
+    color: rgb(213, 213, 213);
+    font-size: 16px;
+}
+
+span.text2 {
+    color: #34815e;
+}
+
+a.btns {
+    background-color: rgb(56, 54, 72);
+    border-radius: 2rem;
+    color: rgb(254, 163, 28);
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    padding: 0.5rem 1.75rem;
+    line-height: normal;
+    position: absolute;
+    bottom: 0.6rem;
+    font-size: 11pt;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+}
+
+.icons {
+    box-shadow: rgb(13 13 13 / 80%) 0px 0px 9px inset;
+    border-radius: 10px;
+    padding: 0.5rem;
+    background: transparent;
+}
+
+.footers li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px 24px;
+}
+
+.footers li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #30333e;
+    background-clip: padding-box;
+    border: 1px solidrgba(0, 0, 0, .2);
+    border-radius: 0.3rem;
+    outline: 0;
+}
+
+.modal {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    z-index: 1060;
+    display: none;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    outline: 0;
+}
+
+.modal-footers {
+    text-align: center;
+}
+
+.sds {
+    color: rgb(0, 148, 236);
+    text-decoration: none;
+}
+
+.sds:hover {
+    color: #ffa409;
+}
+
+.modal-header {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-bottom: none !important;
+    border-top-left-radius: calc(0.3rem - 1px);
+    border-top-right-radius: calc(0.3rem - 1px);
+}
+
+.metas {
+    background: #101218;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    border-radius: 10px;
+    color: #ccc;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    pointer-events: auto;
+    background-color: #30333e;
+    background-clip: padding-box;
+    border: 1px solidrgba(0, 0, 0, .2);
+    border-radius: 0.3rem;
+    outline: 0;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
